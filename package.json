@@ -2,6 +2,7 @@
   "name": "Meal-Hunter",
   "version": "0.2.0",
   "private": true,
+  "homepage": "https://serkanokur79.github.io/MealHunter",
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.4",
     "bootstrap": "^4.3.1",
@@ -17,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
