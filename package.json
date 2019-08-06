@@ -1,37 +1,33 @@
 {
-  "name": "Meal-Hunter",
-  "version": "0.2.0",
-  "private": true,
-  "homepage": "https://serkanokur79.github.io/MealHunter",
+  "name": "meal-hunter",
+  "version": "0.3.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
   "dependencies": {
-    "@fortawesome/react-fontawesome": "^0.1.4",
-    "bootstrap": "^4.3.1",
-    "gh-pages": "^2.0.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-icons": "^3.7.0",
-    "react-router-dom": "^5.0.1",
+    "bootstrap": "4.3.1",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-icons": "3.7.0",
+    "react-router": "5.0.1",
+    "react-router-dom": "5.0.1",
     "react-scripts": "3.0.1",
-    "react-youtube": "^7.9.0"
+    "react-youtube": "latest",
+    "react-youtube-embed": "1.0.3"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
