@@ -1,0 +1,3 @@
+[0916/174042.401:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\ProgramData\Safe Family\Logs: Access is denied. (0x5)
+[0916/174048.490:ERROR:registration_protocol_win.cc(103)] CreateFile: The system cannot find the file specified. (0x2)
+[0916/174048.502:ERROR:registration_protocol_win.cc(103)] CreateFile: The system cannot find the file specified. (0x2)
